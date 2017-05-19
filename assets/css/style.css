@@ -6,6 +6,7 @@ body {
 	padding: 0;
 	box-sizing: border-box;
   text-align: center;
+  background-image: url(http://www.technocrazed.com/wp-content/uploads/2015/12/Brick-wallaper-For-Background-37.jpg);
   
   }
 
@@ -16,7 +17,7 @@ header {
 	width: 100%;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 10px;
-  	margin-bottom: 10px;
+  	margin-bottom: 0, auto;
   	color: #333;
   	background: #fff;
   	border-style: solid;
@@ -85,13 +86,14 @@ li {
 
 .background {
 	position: relative;
-	background-image: url(C:\Users\Dan McCall\Basic-Portfolio\images\brickwall.png);
+	
 	
 
 
 }
 
 .Dan-McCall {
+	vertical-align: middle;
 	margin-left: 90px;
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -111,6 +113,7 @@ li {
 }
 
 .main-content {
+	background-color: #fff;
 	margin-left: 100px;
 	margin-top: 40px;
 	padding: 20px;
@@ -160,6 +163,7 @@ form {
 
 
 aside {
+	background-color: #fff;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-right: 200px;
